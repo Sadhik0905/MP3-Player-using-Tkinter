@@ -28,8 +28,8 @@ playlist = tk.Listbox(musicplayer,font="cambria 14 bold",bg="cyan2",selectmode=t
 
 # Adding songs from songlist to the playlist
 
+pos = 0
 for i in songlist:
-    pos = 0
     playlist.insert(pos,i)
     pos = pos+1
 
